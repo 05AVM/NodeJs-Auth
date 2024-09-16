@@ -4,11 +4,11 @@
   "description": "",
   "main": "backend/app.js",
   "scripts": {
-    "dev":"nodemon backend/app.js"
+    "dev": "nodemon backend/app.js"
   },
   "keywords": [],
   "author": "",
-  "type":"module",
+  "type": "module",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -18,9 +18,8 @@
     "express": "^4.21.0",
     "jsonwebtoken": "^9.0.2",
     "mailtrap": "^3.4.0",
-    "mongoose": "^8.6.2"
-  },
-  "devDependencies": {
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.6.2",
     "nodemon": "^3.1.4"
   }
 }
