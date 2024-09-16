@@ -1,0 +1,26 @@
+cookie-parser:-- to parse the incoming cookie
+
+
+
+
+
+
+
+
+mailtrap:-- a mail sdk to send emails 
+
+
+
+
+bcryptjs:- to hash passwords
+
+
+
+
+jsonwebtoken:-- create the token and also to decode them..
+
+
+
+
+
+crypto :--
