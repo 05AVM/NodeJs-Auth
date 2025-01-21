@@ -1,4 +1,3 @@
-import  User  from "../models/User.js";
 export const signup=async(req,res)=>{
     const{email,password,name}=req.body;
     try{
@@ -21,7 +20,9 @@ export const signup=async(req,res)=>{
             verificationTokenExpiresAt:Date.now()+24*60*60*1000//24 hrs
         })
         await User.save();
-        generateTokenAndSetCookie(res,user._id);//to make sure that the user has been authenticated..
+        generateTokenAndSetCookie(res,User._id);//to make sure that the user has been authenticated..
+        return res.status(201).json({msg:"User Created Successfully"});
+        
     }
     
 
